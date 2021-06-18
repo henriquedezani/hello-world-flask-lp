@@ -27,7 +27,7 @@ def save():
     # abre conexão, executa SQL insert, fecha conexão
     contatos.append(novo_contato) # INSERT INTO contatos VALUES (...)
 
-    return redirect("https://5000-turquoise-pinniped-63qr3oo1.ws-us09.gitpod.io")
+    return redirect("/")
 
 if __name__ == '__main__':
     app.run(debug=True)
